@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto" , sans-serif ;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgb(0,0,0,0.5) ;
+    color: white;
+    background-color: blueviolet;
+}
+
+button:hover{
+   background-color:  rgb(104, 31, 172);
+}
+
+img {
+    padding-bottom: 60px;
+}
+
+.Roller{
+    padding-bottom: 20px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{
+    color: blueviolet;
+}
+
+header {
+    background-color: rgb(245, 245, 245);
+}
+
+header .logo {
+    margin: 0%;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+header.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover {
+    color: blueviolet;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: rgb(49, 104, 223);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://mecaluxar.cdnwm.com/blog/img/deposito-transito-leroy-merlin-guadalajara-bricolaje-jardineria.1.16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+div.container {
+    text-align: center;
+    padding: 95px 12px;
+
+}
+
+#servicios {
+    background-color: rgb(30,30,30);
+    color: white;
+}
+
+#servicios h2{
+    margin: 0%;
+}
+
+#servicios .container{
+    text-align: center;
+    padding: 100px 10px;
+}
+
+#servicios p{
+
+}
+
+#servicios .carta1{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(https://thumbs.dreamstime.com/b/piezas-de-autom%C3…ing-minsheng-logistics-baotou-branch-42620115.jpg)
+}
+
+#servicios .carta2{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(https://mecaluxar.cdnwm.com/documents/20197/5703279/M17P3_La+cadena+de+suministro+se+compone+de+gran+variedad+de+procesos+medibles+con+KPI+log%C3%ADsticos/1d4796a1-f2a1-74a7-bbe9-6612c4a29f40?t=1644959486000&e=jpg)
+}
+
+#servicios .carta3{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(https://http2.mlstatic.com/D_NQ_NP_884548-MLA31042073282_062019-O.jpg)
+}
+
+#servicios .carta4 {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(https://mecaluxar.cdnwm.com/documents/20197/2279425/Dise%C3%B1o+almacen+central-Almac%C3%A9n+centro+distribuci%C3%B3n+sector+alimentaci%C3%B3n-es_ES.jpg/14fa0e4b-9b5d-4318-a14d-d79163ce3cfd?t=1562853388000&e=jpg)
+}
+
+
+#fin {
+    background-color: black;
+    color: white;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    margin: 0%;
+}
